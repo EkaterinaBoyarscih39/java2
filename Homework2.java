@@ -51,7 +51,7 @@ public class Homework2 {
         {
 			if(points = max) {
 			   winner_name = arr[i].split(" ");
-		}
+	}
         System.out.println("Поздравляем с победой, "+winner_name[0]+"!");
     }
 }
