@@ -39,12 +39,19 @@ public class Homework2 {
     public static void task_3() {
         String[] gamers = {"Ivan 5", "Petr 3", "Alex 10", "Petr 8", "Ivan 6",
                                  "Alex 5", "Ivan 1", "Petr 5", "Alex 1"};
-        String[] points = null;
-        String[]gamers_name= null;
+        String[] gamers_list;
+        String[] winner_name= null;
+        int[] max = 10;
         for(int i = 0; i < gamers.length; i++)
         {
-
+            gamers_list = arr[i].split(" ");
+            int[] points = Integer.parseInt(gamers_list[1]);
         }
-        System.out.println("Поздравляем с победой, "+gamers_name[0]+"!");
+        for(int i = 0; i < points.size(); i++) 
+        {
+			if(points = max) {
+			   winner_name = arr[i].split(" ");
+		}
+        System.out.println("Поздравляем с победой, "+winner_name[0]+"!");
     }
 }
