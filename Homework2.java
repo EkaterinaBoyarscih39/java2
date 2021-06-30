@@ -47,7 +47,7 @@ public class Homework2 {
             int prev_score=scores.getOrDefault(name, 0);
             int cur_score=prev_score+score;
             scores.put(player, cur_score);
-            if (cur_score>winner_score) {
+            if (cur_score>win_score) {
                 win_score=cur_score;
                 winner=player;
             }
